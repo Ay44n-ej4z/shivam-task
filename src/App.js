@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 function App() {
   const [mobileNo, setMobileNo] = useState('');
-  const [isVerified, setIsVerified] = useState(true);
+  const [isVerified, setIsVerified] = useState(false);
 
   return (
     <div>
