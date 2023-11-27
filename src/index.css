@@ -1,0 +1,309 @@
+@font-face {
+  font-family: "Ethnocentric";
+  /*Can be any text*/
+  src: local("font"), url("../src/assest/font.otf") format("truetype");
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.enter-mobile-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #001233;
+}
+
+.confirm-mobile-text {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7d8597;
+}
+
+.mobile-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+  margin-top: 16px;
+}
+
+.country-input {
+  width: 30%;
+}
+
+.mobile-input {
+  width: 100%;
+}
+
+.mobile-container input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 12px;
+  /* color: #d5d8de; */
+  outline: none;
+  width: 100%;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.mobile-input ::placeholder {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.continue-button-container {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -2rem;
+}
+
+.button-continue-style-on {
+  font-family: "Inter";
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 110px;
+  padding-right: 110px;
+  border-radius: 28px;
+  gap: 8px;
+  background-color:  #467CEB;
+  color: white;
+  border: none;
+}
+.button-continue-style-on:hover{
+  cursor: pointer;
+}
+.button-continue-style {
+  font-family: "Inter";
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 110px;
+  padding-right: 110px;
+  border-radius: 28px;
+  gap: 8px;
+  background-color: #dae5fb;
+  color: white;
+  border: none;
+}
+
+
+.or-container {
+  text-align: center;
+}
+
+.line {
+  height: 1px;
+  background: #eaebee;
+}
+
+h5 {
+  position: relative;
+  top: 32px;
+  background: #fff;
+  display: inline-block;
+  padding: 0 8px;
+
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7d8597;
+}
+
+.continue-google-container {
+  border-radius: 15px;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.continue-google-container button {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 52px;
+  font-family: "Inter";
+  padding-right: 52px;
+  border-radius: 28px;
+  gap: 11px;
+  border: solid 1px #eaebee;
+  background-color: #fff;
+}
+
+.continue-google-container button:hover {
+  cursor: pointer;
+}
+
+.continue-google-container button div:nth-child(2) {
+  font-family: "Inter";
+  font-size: 17px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.terms-condition {
+  padding-top: 10px;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  color: #5c677d;
+}
+
+.terms-condition span {
+  color: #467ceb;
+}
+
+.terra-logo {
+  font-family: Ethnocentric;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 74px;
+  letter-spacing: -0.07em;
+  text-align: left;
+  color: #467ceb;
+  display: flex;
+  justify-content: center;
+}
+
+.terra-logo img {
+  width: 20px;
+}
+
+.terra-logo span {
+  margin-top: 5px;
+  margin-left: 4px;
+}
+
+.container-logo-terms {
+  margin-top: 6rem;
+}
+
+.search-input input {
+  border: 1px solid black;
+  width: 100%;
+  background-color: #F5F5F7;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+  padding-left: 2.5rem;
+
+  ;
+}
+
+.search-input {
+  display: flex;
+  justify-content: center;
+}
+
+.search-icon-setting {
+  position: absolute;
+  margin-right: 15rem;
+  margin-top: .25rem;
+
+}
+
+.close-button {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.close-button div:nth-child(2):hover {
+  cursor: pointer;
+
+}
+
+.country-card {
+  /* display: flex;
+  justify-content: space-between; */
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+
+}
+.country-card:hover{
+  cursor: pointer;
+}
+.left-side {
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center; */
+}
+
+.country-dial-code {
+  color: rgb(82, 82, 82);
+}
+
+.mobile-container-verification{
+display: flex;
+flex-direction: row; 
+}
+
+.mobile-container-verification input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 12px;
+  /* color: #d5d8de; */
+  outline: none;
+  width: 100%;
+}
+
+.otp-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.otp-input {
+  width: 35px; 
+  height: 35px;
+  text-align: center;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.2em; 
+  margin: 0;
+  padding: 0;
+}
+
+.otp-input:focus {
+  border: none;
+}
